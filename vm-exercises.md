@@ -43,6 +43,10 @@ Next, calculating Average LOS Days will involve calculating an average of the le
 
 #### End goal:
 
+The end goal of this first VM Exercise is that the learner successfully created a table to organize measures, and two new measures that will be the foundations for creating the overall Case Study Dashboard. 
+
+*This is a snip of a visualization that the learner could use to identify the Average LOS Days by the specified age group (0-17):*
+
 ![ex-1-sol_image](https://user-images.githubusercontent.com/125575969/220402018-85ada634-0658-4913-b66e-da6862fca7a6.jpg)
 
 ## Finalized Workbook
