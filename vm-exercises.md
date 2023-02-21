@@ -9,37 +9,41 @@
 
 #### Dataset
 
-- [ ] Add datasets used to the `datasets/` folder
+- [x] Add datasets used to the `datasets/` folder
 
 #### Files
 
-- [ ] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [x] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
 
-*One measurable learning objective that this exercise assesses*
+Use DAX to create two measures to initiate first steps of building BI Case Study dashboards
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
+To get started, you will need to create a couple of measures to calculate things like Total Discharges and Average Length of Stay (LOS) Days. It is extremely helpful to keep measures organized in a table, so you’ll do that first.
+
+To calculate total discharges, you will recall each row in the dataset represents a discharge. Therefore, to create a measure for Total Discharges, you will need to calculate a count of the rows.
+
+Next, calculating Average LOS Days will involve calculating an average of the length_of_stay attribute. Let’s get to it!
+
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+- Step 1.	To get started, create a measures table to keep things organized. Call your new table _Measures.
+- Step 2.	Now let’s create a measure called Total Discharges by counting the rows in the dataset, and format it with commas as a thousands separator.
+- Step 3.	Calculate another measure called Average Length of Stay Days using the length_of_stay column. Format it to 1 decimal place.
+- Step 4.	Look at Average LOS Days by age_group using a clustered column chart, and notice the difference between groups.
 
-- Step 1
-- Step 2
-- Step 3
-- ...
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+
+- Question 1: What is the total Average LOS in days for patients aged 0-17? (ANS 5.7)
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![ex-1-sol_image](https://user-images.githubusercontent.com/125575969/220402018-85ada634-0658-4913-b66e-da6862fca7a6.jpg)
 
 ## Finalized Workbook
 
@@ -51,4 +55,5 @@ Which answers will the learner be able to solve once building this? How does it 
 
 #### End goal:
 
-*Add an image of the final visualization here.*
+![ex-final-sol-image1](https://user-images.githubusercontent.com/125575969/220402315-d947f732-6d14-407b-b32a-5532b78660f2.jpg)
+
