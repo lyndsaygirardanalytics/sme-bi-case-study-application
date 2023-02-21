@@ -63,5 +63,7 @@ Creating this first page of the overall dashboard (image below) will be the firs
 #### End goal:
 
 This is an image of the drafted first page of the case study dashboard (Summary):
+
+Link to final PBI file: https://github.com/lyndsaygirardanalytics/sme-bi-case-study-application/blob/master/exercises/ex-final-sol.pbix
 ![ex-final-sol-image1](https://user-images.githubusercontent.com/125575969/220402315-d947f732-6d14-407b-b32a-5532b78660f2.jpg)
 
