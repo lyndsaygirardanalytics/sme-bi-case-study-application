@@ -55,9 +55,13 @@ The end goal of this first VM Exercise is that the learner successfully created 
 You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
 
 #### Explanation & Description
-Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
+
+Once building this, learners will be able to clearly communicate to their ‘stakeholders’ an overview of hospitals included in the dataset according to some of the first derived metrics of interest (i.e. those with the most discharges, and those with the longest LOS days). 
+
+Creating this first page of the overall dashboard (image below) will be the first step in deriving insights for the larger case study which delves deeper into the characteristics that exist between hospitals for the specific procedure type of interest. 
 
 #### End goal:
 
+This is an image of the drafted first page of the case study dashboard (Summary):
 ![ex-final-sol-image1](https://user-images.githubusercontent.com/125575969/220402315-d947f732-6d14-407b-b32a-5532b78660f2.jpg)
 
