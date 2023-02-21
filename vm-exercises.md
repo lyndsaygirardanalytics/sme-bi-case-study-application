@@ -29,7 +29,7 @@ To calculate total discharges, you will recall each row in the dataset represent
 Next, calculating Average LOS Days will involve calculating an average of the length_of_stay attribute. Let’s get to it!
 
 
-#### Steps to be executed by the student (max 6)
+#### Steps to be executed by the student 
 
 - Step 1.	To get started, create a measures table to keep things organized. Call your new table _Measures.
 - Step 2.	Now let’s create a measure called Total Discharges by counting the rows in the dataset, and format it with commas as a thousands separator.
